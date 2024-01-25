@@ -1,0 +1,14 @@
+//PRIMARY COLORS
+$text-color: #32302f;
+$background-color: #fcfcfc;
+$color-white: #ffff;
+
+// Hamburger menu
+$hamburger-menu-z-index: 10;
+$hamburger-menu-width-small: 260px;
+$hamburger-menu-width-medium: $hamburger-menu-width-small !default;
+$hamburger-menu-width-large: $hamburger-menu-width-small !default;
+$hamburger-button-close: "/assets/images/hamburger-button-close.svg" !default;
+$hamburger-button-open-width-small: 40px !default;
+$hamburger-button-open-width-medium: 60px !default;
+$hamburger-button-open-width-large: $hamburger-button-open-width-medium !default;
