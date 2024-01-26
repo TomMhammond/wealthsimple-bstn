@@ -1,68 +1,86 @@
 .account-overview {
-    margin-top: 6.25rem;
-    padding: 1rem;
+	margin-top: 6.25rem;
+	padding: 1rem;
 
-    .balance {
-        font-size: 2rem;
-        font-weight: bold;
-    }
+	.balance {
+		font-size: 2rem;
+		font-weight: bold;
+	}
 
-    .account-main {
-        margin-top: 1rem;
-        display: flex;
-        align-items: center;
+	.account-main {
+		margin-top: 1rem;
+		display: flex;
+		align-items: center;
 
-        .account-name {
-            font-size: 1rem;
-            font-weight: bold;
-            margin-right: 0.625rem;
-        }
+		.account-name {
+			font-size: 1rem;
+			font-weight: bold;
+			margin-right: 0.625rem;
+		}
 
-        .equal-icon {
-            margin-left: auto;
-            width: 1.25rem;
-            height: 1.25rem;
-        }
-    }
+		.equal-icon {
+			margin-left: auto;
+			width: 1.25rem;
+			height: 1.25rem;
+		}
+	}
 
-    .accounts {
-        margin-top: 1.25rem;
-        width: 100%;
-        margin: 0.625rem 0;
-        border: 0.0625rem solid #ccc;
-        border-radius: 0.5rem;
-        overflow: hidden;
-        padding: 0.625rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+	.accounts {
+		margin-top: 1.25rem;
+		width: 100%;
+		margin: 0.625rem 0;
+		border: 0.0625rem solid #ccc;
+		border-radius: 0.5rem;
+		overflow: hidden;
+		padding: 0.625rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-    .account-item {
-        flex: 1;
-        padding: 1rem;
-        margin-right: 0.625rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
+	.account-item {
+		flex: 1;
+		padding: 1rem;
+		margin-right: 0.625rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
 
-    .add-account {
-        margin-top: 2rem;
-        width: 100%;
-        border: 0.0625rem solid black;
-        border-radius: 1rem;
-        overflow: hidden;
-        padding: 0.625rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+	.add-account {
+		margin-top: 2rem;
+		width: 100%;
+		border: 0.0625rem solid black;
+		border-radius: 1rem;
+		overflow: hidden;
+		padding: 0.625rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
-        .plus-icon {
-            margin-right: 0.3125rem;
-            width: 1rem;
-            height: 1rem;
-        }
-    }
+		.plus-icon {
+			margin-right: 0.3125rem;
+			width: 1rem;
+			height: 1rem;
+		}
+	}
+
+	.account-more {
+		margin-top: 1rem;
+	}
+}
+
+.card-container {
+	margin-top: 1rem;
+}
+
+.more-card {
+	background: #ecf3d4;
+
+	&__img {
+		position: absolute;
+		left: 1rem;
+		bottom: 1rem;
+	}
 }
