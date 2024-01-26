@@ -1,15 +1,12 @@
 import "./App.scss";
-import MobileAppScreen from "./components/MobileAppScreen/MobileAppScreen";
+import NavBar from "./components/NavBar/NavBar";
+import PageHeader from "./components/PageHeader/PageHeader";
 
 function App() {
 	return (
 		<div className="background">
-			{/* <h1>I'm an h1</h1>
-			<h2>I'm an h2</h2>
-			<h3>I'm an h3</h3>
-			<p>I'm a paragraph very long</p>
-			<button className="button">This is a button</button> */}
-			<MobileAppScreen />
+			<PageHeader title={"Home"} />
+			<NavBar />
 		</div>
 	);
 }

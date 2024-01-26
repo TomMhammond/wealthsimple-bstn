@@ -1,0 +1,14 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.navbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 2rem 2rem;
+	width: 100%;
+}

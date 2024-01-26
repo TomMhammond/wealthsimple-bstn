@@ -1,0 +1,28 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables.scss" as *;
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 3rem 1rem 1rem;
+}
+
+.icon-container {
+	display: flex;
+	align-items: center;
+}
+
+.back-arrow {
+	width: 5.625rem;
+}
+
+.icon {
+	margin-left: 1rem;
+}
