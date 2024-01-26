@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
-$font-family-base: 'Roboto', sans-serif;
+$font-family-base: "Roboto", sans-serif;
 $font-size-base: 16px; // Base font size
 $font-size-xl: 1.25rem; // 20px
 $font-size-3xl: 2rem; // 32px
@@ -33,15 +33,15 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: $spacing-4;
-  border-bottom: 1px solid $color-border;
 
   h1 {
     font-size: $font-size-xl;
-    font-weight: 500;
+    font-weight: 1000;
   }
 
   .icon-left {
     font-size: $font-size-xl;
+
   }
 
   .icon-more {
@@ -57,9 +57,9 @@ html {
 
 .bottom-tab {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: $spacing-4;
+  padding: $spacing-4 0;
   border-top: 1px solid $color-border;
   position: fixed;
   bottom: 0;
@@ -67,5 +67,6 @@ html {
 
   .icon {
     font-size: $font-size-xl;
+    font-size: 1.5rem;
   }
 }
