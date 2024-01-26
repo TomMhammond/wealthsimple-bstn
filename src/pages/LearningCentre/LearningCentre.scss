@@ -30,8 +30,9 @@
 
 	&__card {
 		color: #345d63;
-		background-color: #ecf3d4;
-		background: url(../../assets/images/coins.png),
-			lightgray -148.306px -43.034px / 349.727% 148.966% no-repeat;
+		background: url(../../assets/images/coins.svg), #cfeaea;
+		background-size: 7.375rem;
+		background-position: 80% 100%;
+		background-repeat: no-repeat;
 	}
 }

@@ -1,5 +1,4 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
-import coins from "../../assets/images/coins.png";
 import search from "../../assets/icons/search.svg";
 import "./LearningCentre.scss";
 
@@ -29,11 +28,6 @@ export default function LearningCentre() {
 					<p className="card__content learning-home__card-content">
 						Investing small sums for big returns
 					</p>
-					{/* <img
-						className="bite-sized__image"
-						src={coins}
-						alt="trinkle of gold coins"
-					/> */}
 				</div>
 			</div>
 		</>
