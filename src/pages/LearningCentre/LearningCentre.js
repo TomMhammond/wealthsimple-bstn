@@ -7,9 +7,9 @@ import ArticleCard from "../../components/Cards/ArticleCard/ArticleCard";
 export default function LearningCentre() {
 	const navigate = useNavigate();
 	const clickHandler = () => {
-		navigate('/learn/article');
-	}
-	
+		navigate("/learn/article");
+	};
+
 	return (
 		<>
 			<PageHeader title={"Learning Centre"} />
@@ -28,14 +28,17 @@ export default function LearningCentre() {
 					></input>
 				</div>
 				<h3 className="learning-home__subtitle">Bite-Sized Read</h3>
-				<div className="card learning-home__card">
-					<p className="card__title learning-home__card-title">
-						A little goes a long way
-					</p>
-					<p className="card__content learning-home__card-content">
-						Find out how to build wealth with as little as
-						$500.
-					</p>
+				<div className="card-container">
+					<div className="card learning-home__card learning-home__card--first">
+						<p className="card__title learning-home__card-title">
+							A little goes a long way
+						</p>
+						<p className="card__content learning-home__card-content">
+							Find out how to build wealth with as little
+							as $500.
+						</p>
+					</div>
+					<div className="card learning-home__card learning-home__card--second"></div>
 				</div>
 
 				<h3 className="learning-home__subtitle">
@@ -43,6 +46,9 @@ export default function LearningCentre() {
 				</h3>
 				{/* <Card /> */}
 				<ArticleCard />
+				<div className="recommendations-container">
+					{/* <Card /> with clickHandler prop*/}
+				</div>
 				<h3 className="learning-home__subtitle">Articles</h3>
 				<div className="card learning-home__article"></div>
 			</div>

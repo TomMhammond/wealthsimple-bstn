@@ -8,10 +8,10 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const AccountOverview = () => {
-  const navigate = useNavigate();
-  const clickHandler = () => {
-    navigate('/learn/article');
-  }
+	const navigate = useNavigate();
+	const clickHandler = () => {
+		navigate("/learn/article");
+	};
 
   return (
     <div className="account-overview">
