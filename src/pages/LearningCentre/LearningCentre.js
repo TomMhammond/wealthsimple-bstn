@@ -2,6 +2,7 @@ import PageHeader from "../../components/PageHeader/PageHeader";
 import search from "../../assets/icons/search.svg";
 import "./LearningCentre.scss";
 import { useNavigate } from "react-router-dom";
+import ArticleCard from "../../components/Cards/ArticleCard/ArticleCard";
 
 export default function LearningCentre() {
 	const navigate = useNavigate();
@@ -43,6 +44,8 @@ export default function LearningCentre() {
 				<h3 className="learning-home__subtitle">
 					Recommended for you
 				</h3>
+				{/* <Card /> */}
+				<ArticleCard />
 				<div className="recommendations-container">
 					{/* <Card /> with clickHandler prop*/}
 				</div>

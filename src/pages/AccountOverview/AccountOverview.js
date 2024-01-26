@@ -5,6 +5,7 @@ import equalIcon from "../../assets/icons/menu.svg";
 import plusIcon from "../../assets/icons/plus.jpg";
 import readMoreArrow from "../../assets/icons/readMoreArrow.svg";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const AccountOverview = () => {
 	const navigate = useNavigate();
@@ -12,31 +13,42 @@ const AccountOverview = () => {
 		navigate("/learn/article");
 	};
 
-	return (
-		<div className="account-overview">
-			<div className="balance">$0.00</div>
-			<div className="account-main">
-				<span className="account-name">Accounts</span>
-				<img src={equalIcon} alt="Equal" className="equal-icon" />
-			</div>
-			<div className="accounts">
-				<div className="account-item">
-					<span className="account-name">Cash</span>
-					<span className="account-status">In progress</span>
-				</div>
-			</div>
-			<div className="add-account">
-				<img src={plusIcon} alt="Plus" className="plus-icon" />
-				<span>Add an account</span>
-			</div>
-			<BiteCard
-				title="Saving for your first home?"
-				content="Open an FHSA and contribute up to $8K/yr ($40K max) for your down payment, tax-free."
-				className="light-green"
-				image={readMoreArrow}
-			/>
-		</div>
-	);
+  return (
+    <div className="account-overview">
+      <div className="balance">$0.00</div>
+      <div className="account-main">
+        <span className="account-name">Accounts</span>
+        <img src={equalIcon} alt="Equal" className="equal-icon" />
+      </div>
+      <div className="accounts">
+        <div className="account-item">
+          <span className="account-name">Cash</span>
+          <span className="account-status">In progress</span>
+        </div>
+      </div>
+      <div className="add-account">
+        <img src={plusIcon} alt="Plus" className="plus-icon" />
+        <span>Add an account</span>
+      </div>
+      <BiteCard
+        title="Saving for your first home?"
+        content="Open an FHSA and contribute up to $8K/yr ($40K max) for your down payment, tax-free."
+        className="light-green"
+        image={readMoreArrow}
+      />
+      <div className="personal-insights">
+        <span className="insights-title">Personalized insights to guide your financial journey</span>
+      </div>
+	  <div className="learning-center">
+        <Link to="/learn/article/">
+          <p className="learning-text">Learning Centre</p>
+        </Link>
+      </div>
+      <div className="personal-insights">
+        <span className="insights-title"></span>
+      </div>
+    </div>
+  );
 };
 
 export default AccountOverview;
