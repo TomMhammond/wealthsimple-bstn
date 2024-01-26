@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+// Variables for consistent spacing and color
+$font-stack: "Roboto", sans-serif;
+$color-primary: #333; // Primary text color
+$color-border: #ddd; // Border color
+$tab-icon-size: 2rem; // Tab icon size
+$navbar-height: 3.5rem; // Navigation bar height
+$tabbar-height: 3.5rem; // Tab bar height
+
+body {
+	font-family: $font-stack;
+	margin: 0;
+	padding: 0;
+}
+// Top Navigation Bar Styles
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	border-bottom: 1px solid $color-border;
+	height: $navbar-height;
+	.icon {
+		font-size: $tab-icon-size;
+		color: $color-primary;
+	}
+	h1 {
+		font-size: 1.25rem; // 20px
+		font-weight: 500;
+		color: $color-primary;
+	}
+}
+// Content Area Styles
+.content {
+	flex-grow: 1;
+	padding: 1rem;
+	// Additional content styles here
+}
+// Bottom Tab Bar Styles
+.tabbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+	border-top: 1px solid $color-border;
+	height: $tabbar-height;
+	.icon {
+		font-size: $tab-icon-size;
+		color: $color-primary;
+	}
+}
+
+.placeholder-div {
+	width: 20rem;
+	height: auto;
+	border-color: cornflowerblue;
+}

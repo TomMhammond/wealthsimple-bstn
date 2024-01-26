@@ -16,9 +16,9 @@ html {
 body {
 	font-family: "";
 	text-wrap: pretty;
-	background: #fcfcfc;
+	background-color: #fcfcfc;
 	color: #32302f;
-	font-family: futura-pt, system-ui, Helvetica Neue, sans-serif;
+	font-family: "futura-pt", "Helvetica Neue", sans-serif;
 	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 1.4;
@@ -95,16 +95,12 @@ a {
 // }
 
 .button {
-	border-style: solid;
-	border-color: #32302f;
+	border-style: 0.4rem solid #32302f;
 	background-color: #32302f;
-	border-width: 0.4rem;
 	color: #fff;
-	height: calc(100% + 1.2rem);
-	width: calc(100% + 1.2rem);
 	align-items: center;
 	border-radius: 160rem;
-	font-size: 1.8rem;
+	font-size: 1rem;
 	font-weight: 500;
 	justify-content: center;
 	letter-spacing: -0.0075em;
