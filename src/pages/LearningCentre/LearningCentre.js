@@ -2,6 +2,7 @@ import PageHeader from "../../components/PageHeader/PageHeader";
 import search from "../../assets/icons/search.svg";
 import "./LearningCentre.scss";
 import { useNavigate } from "react-router-dom";
+import ArticleCard from "../../components/Cards/ArticleCard/ArticleCard";
 
 export default function LearningCentre() {
 	const navigate = useNavigate();
@@ -41,6 +42,7 @@ export default function LearningCentre() {
 					Recommended for you
 				</h3>
 				{/* <Card /> */}
+				<ArticleCard />
 				<h3 className="learning-home__subtitle">Articles</h3>
 				<div className="card learning-home__article"></div>
 			</div>
