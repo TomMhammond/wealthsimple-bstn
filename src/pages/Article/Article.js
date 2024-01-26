@@ -1,7 +1,7 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
 import piggyBank from "../../assets/images/piggy-bank-on-desk.png"
 import './Article.scss'
-import Card from "../../components/Card/Card";
+import ArticleCard from "../../components/Cards/ArticleCard/ArticleCard";
 
 export default function Article() {
 	return (
@@ -25,14 +25,14 @@ export default function Article() {
 					In conclusion, investing small amounts is not only feasible but also a prudent strategy for building wealth over time. Whether it's through automated contributions or manual deposits, the key is consistency. With patience, discipline, and a focus on long-term growth, even the smallest investments can grow into significant assets.
 				</p>
 				
-			</main>
-
 			<aside>
 
-			<Card />
+			<ArticleCard />
 			{/* carousel component should go here */}
 
 			</aside>
+			</main>
+
 		</>
 	);
 }
