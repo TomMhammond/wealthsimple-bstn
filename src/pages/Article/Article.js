@@ -1,4 +1,5 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
+import piggyBank from "../../assets/images/piggy-bank-on-desk.png"
 import './Article.scss'
 
 export default function Article() {
@@ -8,7 +9,7 @@ export default function Article() {
 			<main className="main">
 				<h1 className="article__title">Article Title</h1>
 				<h4 className="article__sub-title">Article Sub-title</h4>
-				<img className="article__img" alt="piggy bank on desk"></img>
+				<img className="article__img" src={piggyBank} alt="piggy bank on desk"></img>
 				<h4 className="article__sub-header">Article Sub header</h4>
 				<p className="article__para">
 					Investing small amounts of money can pave the way to financial security through the magic of compound interest. Even modest contributions, when consistently invested over time, can yield impressive returns. The key is to start early and maintain a disciplined approach.
@@ -25,7 +26,11 @@ export default function Article() {
 				
 			</main>
 
+			<aside>
+
 			{/* carousel component should go here */}
+
+			</aside>
 		</>
 	);
 }
