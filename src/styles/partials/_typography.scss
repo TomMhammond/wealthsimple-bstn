@@ -2,42 +2,57 @@
 
 @font-face {
 	font-family: "futura-pt";
-	src: url(../../assets/fonts/FuturaPTBook.otf) format(otf);
-	font-weight: 400;
-	font-style: regular;
+	src: url(../../assets/fonts/FuturaPTBook.otf) format(opentype);
 }
 @font-face {
 	font-family: "futura-pt";
-	src: url(../../assets/fonts/FuturaPTLight.otf) format(otf);
-	font-weight: 500;
-	font-style: regular;
+	src: url(../../assets/fonts/FuturaPTLight.otf) format(opentype);
+}
+
+@font-face {
+	font-family: "futura-pt";
+	src: url(../../assets/fonts/FuturaPTDemi.otf) format(opentype);
+}
+
+@font-face {
+	font-family: "futura-pt";
+	src: url(../../assets/fonts/FuturaPTMedium.otf) format(opentype);
+}
+
+@font-face {
+	font-family: "futura-pt";
+	src: url(../../assets/fonts/FuturaPTHeavy.otf) format(opentype);
 }
 
 @font-face {
 	font-family: "tiempos-headline";
-	src: url(../../assets/fonts/TiemposHeadline-Regular.otf) format(otf);
+	src: url(../../assets/fonts/TiemposHeadline-Regular.otf) format(opentype);
+	font-weight: 400;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: "caslon-graphique";
+	src: url(../../assets/fonts/CaslonGraphique-Opti.otf) format(opentype);
 	font-weight: 400;
 	font-style: regular;
 }
 
 h1 {
-	font-size: clamp(5.6rem, 2.63vw + 4.78rem, 8.4rem);
 	font-weight: 400;
 	letter-spacing: 0.01em;
-	font-family: "tiempos-headline", Lucida, Georgia, serif;
+	font-family: "futura-pt", "Helvetica Neue", sans-serif;
 	line-height: 108%;
 }
 
 h2 {
-	font-size: clamp(3.6rem, 2.63vw + 2.78rem, 6.4rem);
 	font-weight: 400;
 	letter-spacing: 0.01em;
-	font-family: "tiempos-headline", Lucida, Georgia, serif;
+	font-family: "futura-pt", "Helvetica Neue", sans-serif;
 	line-height: 116%;
 }
 
 h3 {
-	font-size: clamp(2.4rem, 0.56vw + 2.22rem, 3rem);
 	font-weight: 500;
 	letter-spacing: -0.0075em;
 	font-family: "futura-pt", "Helvetica Neue", sans-serif;
@@ -45,7 +60,6 @@ h3 {
 }
 
 p {
-	font-size: clamp(1.8rem, 0.56vw + 1.62rem, 2.4rem);
 	font-weight: 400;
 	letter-spacing: -0.005em;
 	font-family: "futura-pt", "Helvetica Neue", sans-serif;

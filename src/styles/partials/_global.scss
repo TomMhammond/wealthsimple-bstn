@@ -14,7 +14,6 @@ html {
 }
 
 body {
-	font-family: "";
 	text-wrap: pretty;
 	background-color: #fcfcfc;
 	color: #32302f;
@@ -35,64 +34,6 @@ a {
 		width: auto;
 	}
 }
-
-// MENU ITEM
-// .hamburger-menu {
-// 	color: $color-white;
-// 	transition: all 500ms ease;
-// 	position: fixed;
-// 	top: 0;
-// 	bottom: 0;
-// 	right: -$hamburger-menu-width-small;
-// 	z-index: $hamburger-menu-z-index;
-// 	width: $hamburger-menu-width-small;
-
-// 	&.show {
-// 		right: 0;
-// 	}
-// }
-
-// .hamburger-menu-overlay {
-// 	transition: all 500ms ease;
-// 	position: fixed;
-// 	top: 0;
-// 	left: 0;
-// 	width: 100%;
-// 	height: 100%;
-// 	opacity: 0;
-// 	z-index: -1;
-// 	background-color: rgba(0, 0, 0, 0.5); // dim the background
-
-// 	&.show {
-// 		opacity: 1;
-// 		z-index: $hamburger-menu-z-index - 1;
-// 	}
-// }
-
-// .hamburger-button-close {
-// 	background: url($hamburger-button-close);
-// 	cursor: pointer;
-// 	position: relative;
-// 	top: 50px;
-// 	width: 40px;
-// 	height: 40px;
-// 	margin: auto;
-// }
-
-// .hamburger-menu-items {
-// 	font-size: 14px;
-// 	width: 100%;
-// 	letter-spacing: 3px;
-// 	text-align: center;
-// }
-
-// .hamburger-menu-items a {
-// 	display: block;
-// 	line-height: 70px;
-// 	text-transform: uppercase;
-// 	text-decoration: none;
-// 	color: $color-white;
-// }
 
 .button {
 	border-style: 0.4rem solid #32302f;
