@@ -5,7 +5,15 @@
     overflow: hidden;
     font-family: 'Arial', sans-serif;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
+    width: 100%;
+    height: auto; 
+
+    background-color: gray;
+    background-image: url("../../../assets/images/piggy-bank-on-desk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
     .card__header {
       background-color: #F0F1F7;
       padding: 8px 12px;
