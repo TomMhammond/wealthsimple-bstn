@@ -20,13 +20,13 @@
 @font-face {
 	font-family: "futura-pt";
 	src: url(../../assets/fonts/FuturaPTMedium.otf) format(opentype);
-	font-weight: 650;
+	font-weight: 600;
 }
 
 @font-face {
 	font-family: "futura-pt";
 	src: url(../../assets/fonts/FuturaPTHeavy.otf) format(opentype);
-	font-weight: 700;
+	font-weight: 650;
 }
 
 @font-face {
@@ -41,32 +41,4 @@
 	src: url(../../assets/fonts/CaslonGraphique-Opti.otf) format(opentype);
 	font-weight: 400;
 	font-style: regular;
-}
-
-h1 {
-	font-weight: 400;
-	letter-spacing: 0.01em;
-	font-family: "futura-pt", "Helvetica Neue", sans-serif;
-	line-height: 108%;
-}
-
-h2 {
-	font-weight: 400;
-	letter-spacing: 0.01em;
-	font-family: "futura-pt", "Helvetica Neue", sans-serif;
-	line-height: 116%;
-}
-
-h3 {
-	font-weight: 500;
-	letter-spacing: -0.0075em;
-	font-family: "futura-pt", "Helvetica Neue", sans-serif;
-	line-height: 124%;
-}
-
-p {
-	font-weight: 400;
-	letter-spacing: -0.005em;
-	font-family: "futura-pt", "Helvetica Neue", sans-serif;
-	line-height: 124%;
 }
