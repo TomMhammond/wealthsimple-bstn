@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaHome, FaSearch, FaArrowLeft, FaClock } from 'react-icons/fa';
+import { FaHouse, FaSistrix, FaArrowLeft, FaArrowRightArrowLeft, FaClock } from 'react-icons/fa6';
 import { IoIosMore } from 'react-icons/io';
-import './MobileAppScreen.scss'; // Make sure this path is correct
+import './MobileAppScreen.scss'; 
 
 const MobileAppScreen = () => {
   return (
@@ -20,9 +20,9 @@ const MobileAppScreen = () => {
 
       {/* Bottom Tab Bar */}
       <div className="bottom-tab">
-        <FaHome className="icon" />
-        <FaSearch className="icon" />
-        <FaArrowLeft className="icon" />
+         <FaHouse className="icon" />
+        <FaSistrix className="icon" />
+        <FaArrowRightArrowLeft className="icon" />
         <FaClock className="icon" />
       </div>
     </div>
