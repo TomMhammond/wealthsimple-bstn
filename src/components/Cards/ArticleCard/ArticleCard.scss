@@ -1,0 +1,51 @@
+.article-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto; 
+
+    background-color: gray;
+    background-image: url("../../../assets/images/piggy-bank-on-desk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .card__header {
+      background-color: #F0F1F7;
+      padding: 8px 12px;
+      color: #6D5BD0;
+      font-weight: bold;
+    }
+  
+    .card__time {
+      background-color: #FFFFFF;
+      border-radius: 12px;
+      padding: 2px 8px;
+      font-size: 0.75rem;
+    }
+  
+    .card__body {
+      padding: 12px;
+      
+      .card__title {
+        font-size: 1rem;
+        color: #333333;
+        margin-bottom: 4px;
+      }
+      
+      .card__text {
+        font-size: 0.875rem;
+        color: #666666;
+      }
+    }
+  
+    .card__image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

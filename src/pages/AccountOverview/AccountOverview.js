@@ -1,15 +1,16 @@
 import React from "react";
 import "./AccountOverview.scss";
+import BiteCard from "../../components/Cards/BiteCard/BiteCard";
 import equalIcon from "../../assets/icons/menu.svg";
 import plusIcon from "../../assets/icons/plus.jpg";
 import readMoreArrow from "../../assets/icons/readMoreArrow.svg";
 import { useNavigate } from "react-router-dom";
 
 const AccountOverview = () => {
-  const navigate = useNavigate();
-  const clickHandler = () => {
-    navigate('/learn/article');
-  }
+	const navigate = useNavigate();
+	const clickHandler = () => {
+		navigate("/learn/article");
+	};
 
 	return (
 		<div className="account-overview">
@@ -28,32 +29,12 @@ const AccountOverview = () => {
 				<img src={plusIcon} alt="Plus" className="plus-icon" />
 				<span>Add an account</span>
 			</div>
-			<div>
-				<h3 className="account-subtitle">More</h3>
-				<div className="card-container">
-					<div className="card more-card more-card--first">
-						<p className="card__title">
-							Saving for your first home?
-						</p>
-						<p className="card__content">
-							Open an FHSA and contribute up to $8K/yr
-							($40K max) for your down payment, tax-free.{" "}
-						</p>
-						<img
-							className="more-card__img"
-							src={readMoreArrow}
-							alt="arrow pointing right"
-						/>
-					</div>
-					<div className="card more-card more-card--second">
-						<img
-							className="more-card__img"
-							src={readMoreArrow}
-							alt="arrow pointing right"
-						/>
-					</div>
-				</div>
-			</div>
+			<BiteCard
+				title="Saving for your first home?"
+				content="Open an FHSA and contribute up to $8K/yr ($40K max) for your down payment, tax-free."
+				className="bite-card--light-green"
+				image={readMoreArrow}
+			/>
 		</div>
 	);
 };
