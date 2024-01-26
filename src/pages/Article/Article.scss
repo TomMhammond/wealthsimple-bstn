@@ -1,32 +1,60 @@
-
-@use '../../styles/partials/variables' as *;
+@use "../../styles/partials/variables" as *;
 
 .main {
-    margin-top: 6rem;
-    padding: 0 1rem;
-    margin-bottom: 5rem;
+	margin-top: 6rem;
+	padding: 0 1rem;
+	margin-bottom: 5rem;
 }
 
 .article {
-    &__title{
-        font-size: $font-size-3xl;
-    }
+	&__title {
+		font-size: $font-size-3xl;
+	}
 
-    &__sub-title{
-        font-size: $font-size-xl;
-        padding-top: 1rem;
-        padding-bottom: .5rem;
-    }
+	&__sub-title {
+		font-size: $font-size-xl;
+		padding-top: 1rem;
+		padding-bottom: 0.5rem;
+	}
 
-    &__sub-header {
-        font-size: $font-size-xl;
-        padding-top: 1rem;
-        padding-bottom: 1.5rem;
-    }
+	&__sub-header {
+		font-size: $font-size-xl;
+		padding-top: 1rem;
+		padding-bottom: 1.5rem;
+	}
 
-    &__para {
-        font-size: $font-size-base;
-        font-weight: 400;
-        padding-bottom: 1rem;
-    }
+	&__para {
+		font-size: $font-size-base;
+		font-weight: 400;
+		padding-bottom: 1rem;
+	}
+
+	&__img {
+		border-radius: 1.25rem;
+		width: 100%;
+		margin: 1rem 0;
+	}
+}
+
+.highlight {
+	font-weight: 600;
+	color: #5c8dc6;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.popup {
+	padding: 1rem;
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+	background: #fff;
+	border-radius: 1.5rem 1.5rem 0rem 0rem;
+	border: 1px solid var(--Gray, #94908d);
+
+	&--hidden {
+		display: none;
+	}
 }
