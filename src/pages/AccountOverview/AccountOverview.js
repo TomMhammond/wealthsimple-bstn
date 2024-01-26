@@ -23,9 +23,9 @@ const AccountOverview = () => {
 				<span>Add an account</span>
 			</div>
 			<div>
-				<h3 className="account-more">More</h3>
+				<h3 className="account-subtitle">More</h3>
 				<div className="card-container">
-					<div className="card more-card">
+					<div className="card more-card more-card--first">
 						<p className="card__title">
 							Saving for your first home?
 						</p>
@@ -33,6 +33,13 @@ const AccountOverview = () => {
 							Open an FHSA and contribute up to $8K/yr
 							($40K max) for your down payment, tax-free.{" "}
 						</p>
+						<img
+							className="more-card__img"
+							src={readMoreArrow}
+							alt="arrow pointing right"
+						/>
+					</div>
+					<div className="card more-card more-card--second">
 						<img
 							className="more-card__img"
 							src={readMoreArrow}
