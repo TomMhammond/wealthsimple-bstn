@@ -10,12 +10,20 @@
 	padding: 1rem;
 
 	&__card {
-		color: #345d63;
-		background: url(../../assets/images/coins.svg), #cfeaea;
-		background-size: 7.375rem;
-		background-position: 80% 100%;
-		background-repeat: no-repeat;
-		margin-bottom: 1rem;
+		margin-right: 1.5rem;
+
+		&--first {
+			color: #345d63;
+			background: url(../../assets/images/coins.svg), #cfeaea;
+			background-size: 7.375rem;
+			background-position: 80% 100%;
+			background-repeat: no-repeat;
+			margin-bottom: 1rem;
+		}
+
+		&--second {
+			background-color: #ecf3d4;
+		}
 	}
 
 	&__subtitle {
@@ -58,4 +66,12 @@
 	color: $text-color;
 	font-weight: 500;
 	font-family: "futura-pt";
+}
+
+.card-container {
+	justify-content: flex-start;
+	// 	margin-top: 1rem;
+	// 	white-space: nowrap;
+	// 	overflow-x: scroll;
+	display: flex;
 }
