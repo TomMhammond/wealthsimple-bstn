@@ -2,26 +2,31 @@
 
 @font-face {
 	font-family: "futura-pt";
-	src: url(../../assets/fonts/FuturaPTBook.otf) format(opentype);
+	src: url(../../assets/fonts/FuturaPTLight.otf) format(opentype);
+	font-weight: 400;
 }
 @font-face {
 	font-family: "futura-pt";
-	src: url(../../assets/fonts/FuturaPTLight.otf) format(opentype);
+	src: url(../../assets/fonts/FuturaPTBook.otf) format(opentype);
+	font-weight: 450;
 }
 
 @font-face {
 	font-family: "futura-pt";
 	src: url(../../assets/fonts/FuturaPTDemi.otf) format(opentype);
+	font-weight: 500;
 }
 
 @font-face {
 	font-family: "futura-pt";
 	src: url(../../assets/fonts/FuturaPTMedium.otf) format(opentype);
+	font-weight: 650;
 }
 
 @font-face {
 	font-family: "futura-pt";
 	src: url(../../assets/fonts/FuturaPTHeavy.otf) format(opentype);
+	font-weight: 700;
 }
 
 @font-face {

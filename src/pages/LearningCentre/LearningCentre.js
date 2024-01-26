@@ -1,9 +1,41 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
+import coins from "../../assets/images/coins.png";
+import search from "../../assets/icons/search.svg";
+import "./LearningCentre.scss";
 
 export default function LearningCentre() {
 	return (
 		<>
 			<PageHeader title={"Learning Centre"} />
+			<div className="learning-home">
+				<div className="search">
+					<img
+						className="search__icon"
+						src={search}
+						alt="magnifying glass"
+					/>
+					<input
+						className="learning-home__search"
+						name="search"
+						type="text"
+						placeholder="Search"
+					></input>
+				</div>
+				<h3>Bite-Sized Read</h3>
+				<div className="card learning-home__card">
+					<p className="card__title learning-home__card-title">
+						A little goes a long way
+					</p>
+					<p className="card__content learning-home__card-content">
+						Investing small sums for big returns
+					</p>
+					{/* <img
+						className="bite-sized__image"
+						src={coins}
+						alt="trinkle of gold coins"
+					/> */}
+				</div>
+			</div>
 		</>
 	);
 }
