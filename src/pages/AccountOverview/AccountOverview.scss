@@ -69,6 +69,31 @@
 	.account-more {
 		margin-top: 1rem;
 	}
+
+	.personal-insights {
+        margin-top: 1.25rem;
+        padding: 0.625rem;
+        .insights-title {
+            font-size: 1rem;
+            // font-weight: bold;
+        }
+    }
+
+    .learning-center {
+        // margin-top: 1.25rem;
+		width: 100%;
+        border: 0.0625rem solid #345D63;
+        background-color: #CFEAEA;
+        text-align: center;
+		border-radius: 1rem;
+		overflow: hidden;
+		padding: 0.625rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+    }
+
 }
 
 .card-container {

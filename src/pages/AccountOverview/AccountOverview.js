@@ -5,6 +5,8 @@ import equalIcon from "../../assets/icons/menu.svg";
 import plusIcon from "../../assets/icons/plus.jpg";
 import readMoreArrow from "../../assets/icons/readMoreArrow.svg";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 const AccountOverview = () => {
   const navigate = useNavigate();
@@ -35,6 +37,20 @@ const AccountOverview = () => {
         className="bite-card--light-green"
         image={readMoreArrow}
       />
+      <div className="personal-insights">
+        <span className="insights-title">Personalized insights to guide your financial journey</span>
+      </div>
+      <div className="learning-center">
+        <Link to="/Pages/LearningCentre/LearningCentre">
+          <p className="learning-text">Learning Centre</p>
+        </Link>
+      </div>
+      <div className="personal-insights">
+        <span className="insights-title"></span>
+      </div>
+      <div className="personal-insights">
+        <span className="insights-title">Personalized insights to guide your financial journey</span>
+      </div>
     </div>
   );
 };
