@@ -32,7 +32,7 @@ const AccountOverview = () => {
       <BiteCard
         title="Saving for your first home?"
         content="Open an FHSA and contribute up to $8K/yr ($40K max) for your down payment, tax-free."
-        className="bite-card--light-green"
+        className="light-green"
         image={readMoreArrow}
       />
     </div>
