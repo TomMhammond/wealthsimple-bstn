@@ -1,8 +1,14 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
 import search from "../../assets/icons/search.svg";
 import "./LearningCentre.scss";
+import { useNavigate } from "react-router-dom";
 
 export default function LearningCentre() {
+	const navigate = useNavigate();
+	const clickHandler = () => {
+		navigate('/learn/article');
+	}
+	
 	return (
 		<>
 			<PageHeader title={"Learning Centre"} />

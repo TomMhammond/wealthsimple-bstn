@@ -3,8 +3,14 @@ import "./AccountOverview.scss";
 import equalIcon from "../../assets/icons/menu.svg";
 import plusIcon from "../../assets/icons/plus.jpg";
 import readMoreArrow from "../../assets/icons/readMoreArrow.svg";
+import { useNavigate } from "react-router-dom";
 
 const AccountOverview = () => {
+  const navigate = useNavigate();
+  const clickHandler = () => {
+    navigate('/learn/article');
+  }
+
 	return (
 		<div className="account-overview">
 			<div className="balance">$0.00</div>
