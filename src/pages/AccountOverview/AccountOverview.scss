@@ -65,29 +65,4 @@
 			height: 1rem;
 		}
 	}
-
-	.account-subtitle {
-		margin-top: 1rem;
-	}
-}
-
-.card-container {
-	margin-top: 1rem;
-	overflow-x: scroll;
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.more-card {
-	&__img {
-		position: absolute;
-		left: 1rem;
-		bottom: 1rem;
-	}
-	&--first {
-		background-color: #ecf3d4;
-	}
-	&--second {
-		background-color: #f4eff5;
-	}
 }
