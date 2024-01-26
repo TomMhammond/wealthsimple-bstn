@@ -14,21 +14,29 @@ export default function LearningCentre() {
 						alt="magnifying glass"
 					/>
 					<input
-						className="learning-home__search"
+						className="search__input"
 						name="search"
 						type="text"
 						placeholder="Search"
 					></input>
 				</div>
-				<h3>Bite-Sized Read</h3>
+				<h3 className="learning-home__subtitle">Bite-Sized Read</h3>
 				<div className="card learning-home__card">
 					<p className="card__title learning-home__card-title">
 						A little goes a long way
 					</p>
 					<p className="card__content learning-home__card-content">
-						Investing small sums for big returns
+						Find out how to build wealth with as little as
+						$500.
 					</p>
 				</div>
+
+				<h3 className="learning-home__subtitle">
+					Recommended for you
+				</h3>
+				{/* <Card /> */}
+				<h3 className="learning-home__subtitle">Articles</h3>
+				<div className="card learning-home__article"></div>
 			</div>
 		</>
 	);
