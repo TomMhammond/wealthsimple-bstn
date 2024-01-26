@@ -10,6 +10,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/learn" element={<LearningCentre />} />
+				<Route path="/learn/article" element={<Article />} />
 			</Routes>
 			<NavBar />
 		</BrowserRouter>
