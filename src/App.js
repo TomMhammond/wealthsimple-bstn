@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import LearningCentre from "./pages/LearningCentre/LearningCentre";
+import Article from "./pages/Article/Article";
 
 function App() {
 	return (
