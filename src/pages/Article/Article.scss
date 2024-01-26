@@ -1,0 +1,32 @@
+
+@use '../../styles/partials/variables' as *;
+
+.main {
+    margin-top: 6rem;
+    padding: 0 1rem;
+    z-index: -1;
+}
+
+.article {
+    &__title{
+        font-size: $font-size-3xl;
+    }
+
+    &__sub-title{
+        font-size: $font-size-xl;
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    &__sub-header {
+        font-size: $font-size-xl;
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    &__para {
+        font-size: $font-size-base;
+        font-weight: 400;
+        padding-bottom: 1rem;
+    }
+}
