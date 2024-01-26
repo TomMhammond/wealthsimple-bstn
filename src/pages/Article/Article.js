@@ -1,6 +1,7 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
 import piggyBank from "../../assets/images/piggy-bank-on-desk.png"
 import './Article.scss'
+import Card from "../../components/Card/Card";
 
 export default function Article() {
 	return (
@@ -28,6 +29,7 @@ export default function Article() {
 
 			<aside>
 
+			<Card />
 			{/* carousel component should go here */}
 
 			</aside>
