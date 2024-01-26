@@ -1,7 +1,6 @@
 .bite-card {
-  &--light-green {
+    position: relative;
     margin-top: 1rem;
-  }
 
   &__heading {
     margin-top: 2rem;
@@ -15,9 +14,10 @@
     border-radius: 1.125rem;
   }
 
-  &__img {
+  &__image {
     position: absolute;
     left: 1rem;
     bottom: 1rem;
+    margin-top: 1rem;
   }
 }
