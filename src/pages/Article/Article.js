@@ -33,12 +33,12 @@ export default function Article() {
           A tax-free savings account is an account available in Canada that
           provides tax benefits for saving. Investment income, including{" "}
           <span className="highlight">capital gains</span> and
-          <span className="highlight">dividends</span>, earned in a TFSA is not
+          <span className="highlight"> dividends</span>, earned in a TFSA is not
           taxed in most cases, even when withdrawn. Contributions to a TFSA are
           not deductible for income tax purposes, unlike contributions to a{" "}
           <span className="highlight" onClick={popupClickHandler}>
             registered retirement savings plan
-          </span>
+          </span> 
           (RRSP).
         </p>
 

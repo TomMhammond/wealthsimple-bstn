@@ -38,7 +38,6 @@ export default function LearningCentre() {
 							as $500.
 						</p>
 					</div>
-					<div className="card learning-home__card learning-home__card--second"></div>
 				</div>
 
 				<h3 className="learning-home__subtitle">
